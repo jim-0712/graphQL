@@ -1,0 +1,9 @@
+query GetLaunchDetail($id: ID!) {
+  launch(id: $id) {
+    id
+    site
+    rocket {
+        name
+    }
+  }
+}

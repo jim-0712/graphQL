@@ -1,0 +1,6 @@
+framework module Pods_graphQL {
+  umbrella header "Pods-graphQL-umbrella.h"
+
+  export *
+  module * { export * }
+}
